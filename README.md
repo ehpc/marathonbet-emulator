@@ -1,4 +1,4 @@
-# Betting emulator for marathonbet.ru via Selenium WebDriver
+# Betting Emulator for Marathonbet.ru
 
 ## Requirements
 
