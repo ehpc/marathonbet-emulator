@@ -1,28 +1,19 @@
-# Эмулятор ставок
+# Betting emulator via Selenium WebDriver
 
-## Требования
+## Requirements
 
-Для работы требуется установленный пакет selenium для python
 ```
 pip install -U selenium
 ```
 
-А также обязательно установить драйвер браузера Firefox.
-```
-https://github.com/mozilla/geckodriver/releases
-```
+Install geckodriver from `https://github.com/mozilla/geckodriver/releases`.
 
-Для GUI-режима обязательно наличие полноценного firefox.
-
-На linux-сервере возможно придётся ещё повозиться с интеграцией всего этого.
+For GUI-mode you will need a fully functional Firefox installation.
 
 ## Headless
 
-Эмулятор работает как в полноценном GUI-режиме, так и headless.
-То есть он может открыть окно и щелкать прямо на экране, либо открыться в фоне и щелкать где-то там под капотом.
+Use `headless` flag in constructor.
 
-Для переключения режимов используется флаг `headless` в конструкторе.
+## Flow
 
-## Успешность ставки
-
-Если сделать ставку по какой-то причине нет возможности, вылетит Exception. Его нужно отловить и обработать.
+If betting wasn't successful and Exception will be thrown. You should catch it.
