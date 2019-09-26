@@ -16,4 +16,4 @@ Use `headless` flag in constructor.
 
 ## Flow
 
-If betting wasn't successful and Exception will be thrown. You should catch it.
+If betting wasn't successful an Exception will be thrown. You should catch it.
